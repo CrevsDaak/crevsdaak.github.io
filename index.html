@@ -1,19 +1,35 @@
-<html><body bgcolor="darkred">
+<html>
+<head>
 <title>Daak Web</title>
-<p><h1>Crevs Daak's web-site</h1></p>
-<p><i><h3>
-<choose>
-<option>Welcome to the Daak site!</option>
-<option> ... and when your head explodes, of Daak forbidings too, I'll see you on the Daak site of the Moon</option>
-<option>Join the Daak site! We have Wookies!</option>
-<option>Hmmm. The Daak sitee clouds everything. Impossible to see, the future is.</option>
-<option>Only together can we turn him to the Daak site of the Force.</option>
-<option>You don't know the <i>power</i> of the Daak site!</option>
-<option>Your feeble skills are no match for the power of the Daak site!</option>
-<option>If only you knew the power of the Daak site</option>
-<option>Don't give in to <a href="http://crevsdaak.github.io">hate</a>. That leads to the Daak site.<option>
-<option>Become my apprentice. Learn to use the Daak site of the Force</option>
-<option>Joined the Daak site, Dooku has. Lies, deceit, creating mistrust are his ways now.</option>
-</choose>
-</h3><i></p>
-</body></html>
+<script>
+function daak_web_get_random(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+function daak_web_get_sw_quote()
+{
+  var sw_quotes = [
+                  "THE SUPPOSEDLY NULL STRING THAT SAYS NI",
+                  "Welcome to the Daak site!",
+                  " ... and when your head explodes, of Daak forbidings too, I'll see you on the Daak site of the Moon",
+                  "Join the Daak site! We have Wookies!",
+                  "Hmmm. The Daak site clouds everything. Impossible to see, the future is.",
+                  "Only together can we turn him to the Daak site of the Force",
+                  "You don't know the <u>power</u> of the Daak site!",
+                  "Your feeble skills are no match for the power of the Daak site!",
+                  "If only you knew the power of the Daak site",
+                  "Don't give in to <a href='http://crevsdaak.github.io'>hate</a>. That leads to the Daak site.",
+                  "Become my apprentice. Learn to use the Daak site of the Force",
+                  "Joined the Daak site, Dooku has. Lies, deceit, creating mistrust are his ways now."
+  ];
+  // I don't give a damn if the same result gets repeated, so make it simple
+  document.getElementById("sw_quote").innerHTML = sw_quotes[daak_web_get_random(1, 11)];
+}
+daak_web_get_sw_quote();
+</script>
+</head>
+<h1>Crevs Daak's web-site</h1>
+<body bgcolor="darkred">
+<h4><i><p id="sw_quote"></p></i></h4>
+<center><button style="position:fixed; bottom:25px;" type="button" onclick="daak_web_get_sw_quote();">Reset Quote</button></center>
+</body>
+</html>
