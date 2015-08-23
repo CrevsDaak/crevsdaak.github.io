@@ -4,15 +4,9 @@
 <script>
 function daak_web_get_random(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-var first_time = 0;
+
 function daak_web_get_sw_quote()
 {
-if (!first_time)
-{
-  first_time = 1;
-  document.getElementById("sw_button").innerHTML = "Reset Quote";
-}
   var sw_quotes = [
                   "THE SUPPOSEDLY NULL STRING THAT SAYS NI",
                   "Welcome to the Daak site!",
@@ -36,6 +30,6 @@ daak_web_get_sw_quote();
 <h1>Crevs Daak's web-site</h1>
 <body bgcolor="darkred">
 <h4><i><p id="sw_quote"></p></i></h4>
-<button style="position:fixed; bottom:25px; text-align: center;" type="button" onclick="daak_web_get_sw_quote();">Show Quotes</button>
+<button style="position:fixed; bottom:25px; text-align: center;" type="button" onclick="daak_web_get_sw_quote();">Show/Reset Quote</button>
 </body>
 </html>
