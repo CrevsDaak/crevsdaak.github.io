@@ -13,7 +13,7 @@ function daak_web_get_sw_quote()
                    "You don't know the <u>power</u> of the Daak site!",
                    "Your feeble skills are no match for the power of the Daak site!",
                    "If only you knew the power of the Daak site",
-                   "Don't click in to <a href='http://crevsdaak.github.io'>hate</a>. That leads to the Daak site.",
+                   "Don't click in to <a href='index.html'>hate</a>. That leads to the Daak site.",
                    "Become my apprentice. Learn to use the Daak site of the Force",
                    "Joined the Daak site, Dooku has. Lies, deceit, creating mistrust are his ways now.",
                    "And now at last it comes. You will give me the Ring freely! In the site of the Daak Lord you will set up a Queen. And I shall not be Daak, but beautiful and terrible as the Morning and the Night!",

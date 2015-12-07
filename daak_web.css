@@ -1,0 +1,21 @@
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:link
+{
+    border-bottom: 1px solid green;
+}
+
+a:visited
+{
+    border-bottom: 1px solid green;
+}
+
+a:hover
+{
+    color: green;
+    border-bottom: 1px solid black;
+}
