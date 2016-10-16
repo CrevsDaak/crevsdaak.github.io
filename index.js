@@ -19,5 +19,5 @@ function daak_web_get_sw_quote()
   else
     rand2 = rand1
 
-  document.getElementById("sw_quote").innerHTML = sw_quotes[rand2;
+  document.getElementById("sw_quote").innerHTML = sw_quotes[rand2];
 }
