@@ -162,3 +162,5 @@
 ~JIMFIX/SETUP-JIMFIX.TP2~ #0 #300 // Add expiration notifications for buffs: v2.5
 ~JIMFIX/SETUP-JIMFIX.TP2~ #0 #600 // Add expiration notifications for item buffs: v2.5
 ~JIMFIX/SETUP-JIMFIX.TP2~ #0 #700 // Allow Spell Shield to block Wish Breach and Mordenkainen's Disjunction: v2.5
+~JIMFIX/SETUP-JIMFIX.TP2~ #0 #201 // Add spell school notifications to the combat log -> All spells with a casting time greater than 1: v2.5
+
